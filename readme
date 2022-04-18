@@ -1,0 +1,15 @@
+To run the the code you first of all you'll need your dialogflow cx key.
+Here's how you can create it : https://m2msupport.net/m2msupport/generate-service-account-key-in-google-cloud-platform-gcp/
+
+After creating the key download it in JSON file.
+
+Now to run the code you have to run the following command in your terminal or CMD to connect with your dailogflow:
+
+$env:GOOGLE_APPLICATION_CREDENTIALS="C:\Users\user\location\nameofyourfile.json"
+
+(*remember*you have to run this everytime you run the code after closing it)
+
+
+and simply run the nodemon dialogindex.js and test your bot on telegram.
+
+Enjoy.
